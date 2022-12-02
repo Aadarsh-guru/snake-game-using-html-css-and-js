@@ -1,0 +1,62 @@
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+
+}
+
+#scoreBox{
+    position: absolute;
+    top: 45px;
+    right: 140px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+    
+}
+
+#hiscoreBox{
+    position: absolute;
+    top: 90px;
+    right: 100px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+    
+}
+
+#board{
+    background: rgb(37, 37, 37);
+    width: 90vmin;
+    height: 92vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+}
+
+.head{
+    background: red;
+    border: .25vmin solid black; 
+   
+}
+
+.snake{
+    background-color: white;
+    border: .25vmin solid black;
+    
+}
+
+.food{
+    background: yellow;
+    border: .25vmin solid black;
+}
